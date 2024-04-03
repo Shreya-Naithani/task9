@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-size: border-box;
+  font-size: 20px;
+}
+
+header {
+  margin-top: 5px;
+}
+.logo {
+  font-size: 28px;
+  margin-left: 5vw;
+}
+li {
+  list-style: none;
+
+  margin-right: 30px;
+  color: gray;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 9%;
+}
+.btn {
+  border: none;
+  background-color: skyblue;
+  padding: 7px;
+  border-radius: 12px;
+  color: blue;
+
+  margin-right: 5vw;
+}
+
+.leftdiv {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  margin-right: 17%;
+}
+.btn1 {
+  background-color: skyblue;
+  border: none;
+  border-radius: 18px;
+  color: white;
+  padding: 16px;
+}
+.blue {
+  color: blue;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 3%;
+}
+.hey {
+  font-size: 40px;
+  color: #555555;
+  font-weight: 800;
+  margin-bottom: 4%;
+  line-height: 7vh;
+}
+.line {
+  margin-bottom: 8%;
+}
+
+.headersection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    font-size: 30px;
+  }
+  .leftdiv {
+    width: 28vw;
+  }
+  .leftdiv {
+    margin-right: 11%;
+    margin-left: 6%;
+  }
+}
+@media screen and (max-width: 896px) {
+  .blue {
+    font-size: 26px;
+  }
+  .hey {
+    font-size: 36px;
+  }
+  .rightdiv {
+    width: 340px;
+    height: 350px;
+  }
+}
+@media screen and (max-width: 771px) {
+  .btn1 {
+    margin-bottom: 15%;
+  }
+  .logo {
+    font-size: 40px;
+  }
+  .btn {
+    padding: 9px;
+  }
+  .headersection {
+    display: none;
+  }
+  .rightdiv {
+    width: 200px;
+    display: flex;
+    margin-bottom: 2%;
+    justify-content: center;
+  }
+  main {
+    flex-direction: column;
+  }
+  /* .blue {
+    font-size: 55px;
+  } */
+  .leftdiv {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 625px) {
+  .rightdiv {
+    width: 40px;
+    height: 200px;
+  }
+  .leftdiv {
+    width: 60%;
+  }
+  img {
+    height:250px;
+    width: 300px;
+  }
+}
